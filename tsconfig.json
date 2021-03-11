@@ -15,7 +15,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "strict": true,
+    "paths": {
+      "@domain/*":["./src/app/core/domain/*"],
+      "@repository/*":["./src/app/core/repositories/*"],
+      "@base/*":["./src/app/core/base/*"]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false
